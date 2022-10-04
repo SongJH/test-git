@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 function App() {
   let post = '강남 우동 맛집';
-  let [제목,제목변경]=useState(['블로그 첫번째 글','두번째글'])
+  let [제목,제목변경]=useState(['블로그 첫번째 글','두번째글','세번째 블로그 글'])
 
   return (
     <div className="App">
@@ -13,6 +13,7 @@ function App() {
       </div>
       <h4>{제목[0]}</h4>
       <h4>{제목[1]}</h4>
+      <h4>{제목[2]}</h4>
     </div>
   );
 }
